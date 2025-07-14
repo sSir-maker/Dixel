@@ -1,0 +1,11 @@
+# Ne pas suivre node_modules
+node_modules/
+config/
+
+# Ne pas suivre les fichiers d'environnement
+.env
+
+# Optionnel : build ou logs
+dist/
+build/
+*.log

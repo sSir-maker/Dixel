@@ -1,0 +1,15 @@
+
+> impact_event@1.0.0 dev
+> SET NODE_ENV=DEVELOPMENT& nodemon backend/server
+
+sh: ligne 1: SET : commande introuvable
+[33m[nodemon] 3.0.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node backend/server.js`[39m
+(node:46866) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Server started on PORT: 4000 in DEVELOPMENT mode.
+MongoDB Database connected with HOST: localhost
+Erreur de conversion ObjectId : Cast to ObjectId failed for value "6565103acebde721cc6cbc8aj" (type string) at path "_id" for model "Event"

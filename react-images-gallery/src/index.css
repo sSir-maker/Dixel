@@ -1,0 +1,83 @@
+
+.images-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+}
+
+.image {
+  width: 100%;
+  height: 20rem;
+  cursor: pointer;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* 📌 Conteneur principal */
+.gallery-container {
+  padding: 20px;
+}
+
+/* 📌 Masonry Grid */
+.my-masonry-grid {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.my-masonry-grid_column {
+  background-clip: padding-box; /* 📌 Ajoute un espace entre les colonnes */
+}
+
+/* 📌 Images */
+.gallery-item {
+  margin-bottom: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.gallery-img {
+  width: 100%;
+  display: block;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+/* 📌 Texte sous l’image */
+.gallery-title {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.MuiImageListItemBar-root {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Pour espacer les icônes */
+.MuiImageListItemBar-actionIcon {
+  display: flex;
+  gap: 8px;
+}
+
+/* Optionnel: changement de couleur au survol */
+.MuiIconButton-root:hover {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+
+
